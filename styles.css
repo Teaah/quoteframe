@@ -6,4 +6,38 @@ body {
     left:50%;
     position: absolute;
     transform: translate(-50%, -50%);
+    display:inline-block;
 }
+
+
+
+.shapetr{
+  
+    width: 119px;
+    height: 119px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    margin-left: 105%;
+}
+
+
+
+.shapebl{
+    float: left;
+    width: 119px;
+    height: 119px;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    margin-left: -20%;
+}
+
+.planet {
+    position: relative;
+    width: 158px;
+    height: 158px;
+    background-image:linear-gradient(to bottom right, #ADD9F4, #435057);
+    border-radius: 50%;
+    float:right;
+    margin-top: -20%;
+}
+
